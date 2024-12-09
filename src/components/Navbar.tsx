@@ -8,6 +8,7 @@ import { SlBulb, SlHeart } from "react-icons/sl";
 import { FiShoppingCart } from "react-icons/fi";
 import { IoChevronDownOutline } from "react-icons/io5";
 
+
 const Navbar = () => {
   const menuItems = [
     "ART DE LA TABLE",
@@ -26,6 +27,9 @@ const Navbar = () => {
 
   const [selectedItem, setSelectedItem] = useState(0);
 
+  
+  
+
   return (
     <header className="w-full bg-white ">
       <div className="m-8 flex justify-between items-start">
@@ -35,7 +39,7 @@ const Navbar = () => {
             <Image src={logo} alt="weframetech logo" />
           </a>
         {/* Search bar */}
-        <div className="w-[768px] h-[50px] rounded-md flex items-center justify-between px-4 bg-[#f9fafb] focus-within:border">
+        <div className="w-[768px] h-[50px] rounded-md flex items-center justify-between px-4 bg-[#f9fafb] focus-within:border font-geist">
           <input
             type="text"
             placeholder="Rechercher un produit"
@@ -48,7 +52,7 @@ const Navbar = () => {
 
 
         {/* Right section */}
-        <div className="flex items-center space-x-4 text-[14px] ">
+        <div className="flex items-center space-x-4 text-[14px] font-poppins">
           <button className="text-black p-2 flex items-center gap-[8px] ">
             <SlBulb className="text-[#282f35]"/>
             Inspirations
@@ -67,7 +71,7 @@ const Navbar = () => {
           <div className="flex items-center gap-2 ">
             <span className="w-[44px] h-[44px]  bg-gray-300 rounded-full" />
         
-            <button className="text-black">FR</button>
+            <button className="text-black font-montserrat">FR</button>
             <IoChevronDownOutline/>
           </div>
         </div>
@@ -75,7 +79,7 @@ const Navbar = () => {
 
       {/* Menu */}
       <nav className="">
-      <ul className="flex justify-evenly space-x-4 border-b">
+      <ul className={`flex justify-evenly space-x-4 border-b font-inter`}>
         {menuItems.map((item, index) => (
           <li key={index} className="relative" >
             <div

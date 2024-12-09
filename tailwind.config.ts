@@ -12,6 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily:{
+          inter:['Inter','sans-serif'],
+          geist:['Geist','sans-serif'],
+          poppins:['Poppins','sans-serif'],
+          playfair:['Playfair Display', 'sans-serif'],
+          epilogue:['Epilogue','sans-serif'],
+          montserrat:['Montserrat','sans-serif'],
+          grotesk:['Host Grotesk', 'sans-serif']
+      }
     },
   },
   plugins: [],
