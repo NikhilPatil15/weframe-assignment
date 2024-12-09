@@ -31,7 +31,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-gray-900">
-                  Mode d'emploi
+                  Mode d&apos;emploi
                 </a>
               </li>
               <li>
@@ -84,7 +84,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-gray-900">
-                  Ma liste d'envie
+                  Ma liste d&apos;envie
                 </a>
               </li>
               <li>

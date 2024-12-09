@@ -1,7 +1,4 @@
-import { FiTruck, FiShoppingCart } from "react-icons/fi";
-import { FaTshirt } from "react-icons/fa";
-import { MdOutlineCleaningServices } from "react-icons/md";
-import { TbTrolley } from "react-icons/tb";
+
 import Image from "next/image";
 import trolley from "../../public/trolley.png";
 import truck from "../../public/truck.png";
@@ -101,7 +98,7 @@ export default function Service() {
               className="flex-1 px-[16px] py-[14px] text-[14px] border border-[#d3d3d3] rounded-[5px] outline-none focus:border-[#00d6d6]"
             />
             <button className="bg-[#00d6d6] text-white text-[14px] px-[16px] py-[14px] rounded-md hover:bg-[#00c4c4]">
-              S’INSCRIRE →
+              S&apos;INSCRIRE →
             </button>
           </div>
         </div>

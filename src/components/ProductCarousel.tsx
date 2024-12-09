@@ -1,5 +1,5 @@
 "use client";
-import { Ref, useRef } from "react";
+import {  useRef } from "react";
 
 import SingleProduct from "./SingleProduct";
 
