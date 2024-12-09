@@ -35,7 +35,7 @@ export default function Service() {
       {/* Title Section */}
       <div className="text-center mb-[30px] px-4">
         <h2 className="text-[22px] md:text-[28px] font-geist text-[#393939]">
-          On s'occupe de <span className="text-[#00d6d6]">tout</span>
+          On s&apos;occupe de <span className="text-[#00d6d6]">tout</span>
         </h2>
         <p className="text-[#9c9c9c] text-[14px] md:text-[16px] leading-[20px] mt-[10px]">
           Office ipsum you must be muted. It meeting commitment busy pain.
@@ -86,7 +86,7 @@ export default function Service() {
           </h3>
           <p className="text-[#bda2b0] text-[12px] md:text-[14px] leading-[1.6] font-geist mb-[20px]">
             Office ipsum you must be muted. Synergize helicopter prioritize
-            anyway job due harvest most opportunity didn’t. Yet busy any meeting
+            anyway job due harvest most opportunity didn&apos;t. Yet busy any meeting
             shark light marginalised 4-blocker message. Productize corporate nail
             caught synergy highlights lunch. Company another pushback items dear
             or any.
